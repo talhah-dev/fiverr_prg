@@ -1,10 +1,11 @@
-﻿const navbar = document.getElementById("navbar");
+const navbar = document.getElementById("navbar");
 const currentPage = document.body.dataset.page || "home";
 
 const navLinks = [
   { key: "home", href: "./index.html", label: "Home" },
-  { key: "gallery", href: "./gallery.html", label: "Gallery" },
-  { key: "contact", href: "./contact.html", label: "Contact" }
+  { key: "houses", href: "./houses-buildings.html", label: "Houses & Buildings" },
+  { key: "amenities", href: "./property-amenities.html", label: "Property Amenities" },
+  { key: "contact", href: "./contact.html", label: "Contact & Offer Instructions" }
 ];
 
 const desktopLinks = navLinks

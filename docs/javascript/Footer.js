@@ -8,7 +8,7 @@ if (footer) {
           <div>
             <img src="./docs/assets/logo.png" alt="Premier Realty Group Platinum logo" class="h-40 md:h-60 w-auto" />
             <p class="mt-5 max-w-md text-sm leading-7 text-white/68">
-              Explore the Texas ranch offering at txranch50acres.com, presented by Premier Realty Group Platinum.
+              Explore this ranch for sale in Hallettsville, Texas, presented by Premier Realty Group Platinum.
             </p>
           </div>
 
@@ -16,8 +16,9 @@ if (footer) {
             <p class="text-sm font-semibold uppercase tracking-[0.28em] text-white/50">Site Links</p>
             <div class="mt-5 flex flex-col gap-3 text-sm text-white/78">
               <a href="./index.html" class="transition hover:text-[#f5ddae]">Home</a>
-              <a href="./gallery.html" class="transition hover:text-[#f5ddae]">Gallery</a>
-              <a href="./contact.html" class="transition hover:text-[#f5ddae]">Contact</a>
+              <a href="./houses-buildings.html" class="transition hover:text-[#f5ddae]">Houses & Buildings</a>
+              <a href="./property-amenities.html" class="transition hover:text-[#f5ddae]">Property Amenities</a>
+              <a href="./contact.html" class="transition hover:text-[#f5ddae]">Contact & Offer Instructions</a>
             </div>
           </div>
 
@@ -39,4 +40,3 @@ if (footer) {
     </footer>
   `;
 }
-
